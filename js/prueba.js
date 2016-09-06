@@ -1,0 +1,1 @@
+setTimeout(function(){document.getElementById("frase").innerHTML = "hola Mundo"; }, 3000);
