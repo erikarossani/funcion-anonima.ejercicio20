@@ -18,8 +18,7 @@ var feature = 'closures';
 ```javascript
 
 var feature = 'closures'; 
-(function () {  
-    
+(function () {    
     if ( typeof feature === 'undefined' ){         
         feature = 'callbacks';         
         console.log('JS coders love its ' + feature );     
