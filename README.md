@@ -14,9 +14,8 @@ console.log('JS developers love its ' + feature );
 } 
 })();
 ```
-```javascript
-
 ###Resultado final del ejercicio final 
+```javascript
 (function () {  
 var feature = 'closures'; 
 if ( typeof feature === 'undefined' ){         
