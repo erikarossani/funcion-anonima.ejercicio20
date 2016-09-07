@@ -6,23 +6,23 @@
 
 var feature = 'closures'; 
 (function () {     
-if ( typeof feature === 'undefined' ){         
-var feature = 'callbacks';         
-console.log('JS coders love its ' + feature );     
-} else {         
-console.log('JS developers love its ' + feature );     
+     if ( typeof feature === 'undefined' ){         
+         var feature = 'callbacks';         
+         console.log('JS coders love its ' + feature );     
+      } else {         
+        console.log('JS developers love its ' + feature );     
 } 
 })();
 ```
 ###Resultado final del ejercicio final 
 ```javascript
 (function () {  
-var feature = 'closures'; 
-if ( typeof feature === 'undefined' ){         
-var feature = 'callbacks';         
-console.log('JS coders love its ' + feature );     
+    var feature = 'closures'; 
+    if ( typeof feature === 'undefined' ){         
+        var feature = 'callbacks';         
+        console.log('JS coders love its ' + feature );     
 } else {         
-console.log('JS developers love its ' + feature );     
+        console.log('JS developers love its ' + feature );     
 } 
 })();
 ```
