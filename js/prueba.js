@@ -1,7 +1,8 @@
- var feature = 'closures';                                                                                                  setTimeout(funct
-   
-    if ( typeof feature === 'undefined' ){         
-        feature = 'callbacks';              
-        console.log('JS coders love its ' + feature );     
+var feature = "closures"; 
+(function () {   
+   if ( typeof feature === "undefined" ){                
+console.log("JS coders love its " + feature);     
 } else {         
-        console.log('JS developers love its ' + feature );
+console.log("JS developers love its " + feature);     
+} 
+})();
