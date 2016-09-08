@@ -4,26 +4,26 @@
 ###Ejercicio Inicial
 ```javascript
 
-var feature = 'closures'; 
+var feature = "closures"; 
 (function () {     
-     if ( typeof feature === 'undefined' ){         
-         var feature = 'callbacks';         
-         console.log('JS coders love its ' + feature );     
+     if ( typeof feature === "undefined" ){         
+         var feature = "callbacks";         
+         console.log("JS coders love its" + feature );     
       } else {         
-        console.log('JS developers love its ' + feature );     
+        console.log("JS developers love its" + feature );     
 } 
 })();
 ```
 ###Resultado final del ejercicio final 
 ```javascript
 
-var feature = 'closures'; 
-(function () {    
-    if ( typeof feature === 'undefined' ){         
-        feature = 'callbacks';         
-        console.log('JS coders love its ' + feature );     
+var feature = "closures"; 
+(function () {   
+   if ( typeof feature === "undefined" ){ 
+      feature = "callbacks"; 
+console.log("JS coders love its " + feature );     
 } else {         
-        console.log('JS developers love its ' + feature );     
+console.log("JS developers love its " + feature );     
 } 
 })();
 ```
